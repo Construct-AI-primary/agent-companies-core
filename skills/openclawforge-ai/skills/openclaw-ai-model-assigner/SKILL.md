@@ -8,7 +8,7 @@ description: >
 # OpenClaw Model Assigner - OpenClaw AI Model Assignment & Optimization
 
 ## Overview
-Assigns optimal AI models to OpenClaw agents based on task complexity, performance requirements, and cost considerations. Works alongside the Agent Creator and SQLite Manager to ensure every agent has an appropriate model assigned for their specific role.
+Assigns optimal AI models to OpenClaw agents based on task complexity, performance requirements, and cost considerations. Works alongside the Agent Creator and SQLite Manager to ensure every agent has an appropriate model assigned for their specific role. Model configuration data is stored in the SQLite database on `srv1628373.hstgr.cloud`.
 
 ## Capabilities
 - **Model Selection**: Choose optimal AI models (e.g., GLM-5.1, Claude, GPT-4) based on agent task requirements
@@ -21,3 +21,8 @@ Assigns optimal AI models to OpenClaw agents based on task complexity, performan
 - When optimizing model performance or cost for existing agents
 - When updating agent model parameters (temperature, max_tokens)
 - When configuring primary and fallback model assignments
+
+## Platform Context
+- **VPS Hostname**: `srv1628373.hstgr.cloud`
+- **Database**: SQLite on the VPS (model assignments persisted there)
+- See `infrastructure/vps-infrastructure.md` for detailed knowledge

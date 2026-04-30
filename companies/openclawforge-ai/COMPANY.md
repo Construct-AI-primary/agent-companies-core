@@ -54,6 +54,10 @@ OpenClaw AI is the operations arm responsible for keeping the OpenClaw platform 
 - agents/openclawforge-ai-agent-creator/AGENTS.md
 - agents/openclawforge-ai-model-assigner/AGENTS.md
 
+## Infrastructure Knowledge
+
+- `infrastructure/vps-infrastructure.md` — detailed VPS knowledge base for `srv1628373.hstgr.cloud`
+
 ## Skills
 
 - skills/openclawforge-ai-orchestrator-hostinger/SKILL.md

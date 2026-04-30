@@ -12,7 +12,7 @@ tags:
 
 # Infrastructure Team
 
-Manages the Hostinger VPS infrastructure, deployment pipelines, system administration, security, monitoring, and configuration management for the OpenClaw platform.
+Manages the Hostinger VPS infrastructure (`srv1628373.hstgr.cloud`, IPv4: `148.230.114.25`, SSH port 65002), deployment pipelines, system administration, security, monitoring, and configuration management for the OpenClaw platform.
 
 ## Members
 
