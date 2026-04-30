@@ -2,10 +2,13 @@
 name: Gatekeeper
 slug: knowledgeforge-ai-gatekeeper
 reportsTo: knowledgeforge-ai-coordinator
+role: auth-flow
+description: >
+  Agent for Gatekeeper
 skills:
   - knowledgeforge-ai-gatekeeper
 ---
 
-# knowledgeforge-ai-gatekeeper
+## Core Procedures
 
-Agent for knowledgeforge-ai.
+Auth Flow

@@ -2,10 +2,13 @@
 name: Inetrmediary
 slug: knowledgeforge-ai-inetrmediary
 reportsTo: knowledgeforge-ai-coordinator
+role: cross-discipline-guardian
+description: >
+  Agent for Inetrmediary
 skills:
   - knowledgeforge-ai-inetrmediary
 ---
 
-# knowledgeforge-ai-inetrmediary
+## Core Procedures
 
-Agent for knowledgeforge-ai.
+Cross Discipline Guardian

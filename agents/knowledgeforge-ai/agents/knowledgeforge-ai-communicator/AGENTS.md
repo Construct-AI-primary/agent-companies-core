@@ -2,10 +2,13 @@
 name: Communicator
 slug: knowledgeforge-ai-communicator
 reportsTo: knowledgeforge-ai-coordinator
+role: public-relations
+description: >
+  Agent for Communicator
 skills:
   - knowledgeforge-ai-communicator
 ---
 
-# knowledgeforge-ai-communicator
+## Core Procedures
 
-Agent for knowledgeforge-ai.
+Public Relations

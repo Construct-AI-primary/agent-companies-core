@@ -2,10 +2,13 @@
 name: Electrician
 slug: knowledgeforge-ai-electrician
 reportsTo: knowledgeforge-ai-coordinator
+role: electrical-engineer
+description: >
+  Agent for Electrician
 skills:
   - knowledgeforge-ai-electrician
 ---
 
-# knowledgeforge-ai-electrician
+## Core Procedures
 
-Agent for knowledgeforge-ai.
+Electrical Engineer

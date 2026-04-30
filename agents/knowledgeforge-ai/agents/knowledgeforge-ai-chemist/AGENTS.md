@@ -2,10 +2,13 @@
 name: Chemist
 slug: knowledgeforge-ai-chemist
 reportsTo: knowledgeforge-ai-coordinator
+role: chemical-engineer
+description: >
+  Agent for Chemist
 skills:
   - knowledgeforge-ai-chemist
 ---
 
-# knowledgeforge-ai-chemist
+## Core Procedures
 
-Agent for knowledgeforge-ai.
+Chemical Engineer
