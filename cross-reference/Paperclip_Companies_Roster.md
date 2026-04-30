@@ -4,8 +4,6 @@ para_section: pages/documentation
 gigabrain_tags: documentation, paperclip-companies, company-roster
 openstinger_context: general-documentation
 last_updated: 2026-04-28
-related_docs:
-  - docs/
 ---
 
 # Paperclip Companies Roster
@@ -138,7 +136,7 @@ One skill per agent in `skills/` directory (53 skills total).
 | **Description** | Dedicated infrastructure services specializing in comprehensive infrastructure management, system orchestration, data processing, security, and operational excellence |
 | **Schema** | agentcompanies/v1 |
 | **Directory** | `docs-paperclip/companies/infraforge-ai/` |
-| **Total Agents** | 7 |
+| **Total Agents** | 8 |
 | **CEO** | Infra CEO (`orchestrator-infraforge-ceo`) |
 | **Tags** | infrastructure, system-orchestration, data-processing, security |
 
@@ -408,6 +406,54 @@ One skill per agent in `skills/` directory (53 skills total).
 
 ---
 
+## 11. OpenClaw AI
+
+| Property | Value |
+|----------|-------|
+| **Slug** | `openclawforge-ai` |
+| **Description** | Internal operations company managing the OpenClaw platform, Hostinger VPS infrastructure, and system administration |
+| **Schema** | agentcompanies/v1 |
+| **Directory** | `companies/openclawforge-ai/` |
+| **Total Agents** | 10 |
+| **CEO** | OpenClaw Orchestrator (`openclawforge-ai-orchestrator-hostinger`) |
+| **Tags** | infrastructure, vps-management, system-administration, platform-operations |
+
+### Teams
+
+| Team | Slug | Agent Count | Focus |
+|------|------|-------------|-------|
+| Infrastructure | `infrastructure` | 10 | Hostinger VPS management, platform operations, deployment, system administration, security, monitoring, configuration, SQLite, agent lifecycle, model assignment |
+
+### Agents
+
+| Agent | Slug | Role | Team |
+|-------|------|------|------|
+| OpenClaw Orchestrator | `openclawforge-ai-orchestrator-hostinger` | CEO / Platform Operations Orchestrator | Infrastructure |
+| VPS Manager | `openclawforge-ai-vps-manager` | Hostinger VPS Instance Management | Infrastructure |
+| Deployment Engineer | `openclawforge-ai-deployment-engineer` | CI/CD & Deployment Management | Infrastructure |
+| Security Guardian | `openclawforge-ai-security-guardian` | VPS Security & Access Control | Infrastructure |
+| Monitoring Specialist | `openclawforge-ai-monitoring-specialist` | Monitoring & Alerting | Infrastructure |
+| Systems Administrator | `openclawforge-ai-systems-administrator` | System Maintenance & Administration | Infrastructure |
+| Config Manager | `openclawforge-ai-config-manager` | Configuration & Secrets Management | Infrastructure |
+| SQLite Manager | `openclawforge-ai-sqlite-manager` | SQLite Database Management & Migrations | Infrastructure |
+| Agent Creator | `openclawforge-ai-agent-creator` | Agent Lifecycle & Skill Design | Infrastructure |
+| Model Assigner | `openclawforge-ai-model-assigner` | Model Assignment & Optimization | Infrastructure |
+
+### Skills
+
+- `skills/openclawforge-ai-orchestrator-hostinger/SKILL.md`
+- `skills/openclawforge-ai-vps-manager/SKILL.md`
+- `skills/openclawforge-ai-deployment-engineer/SKILL.md`
+- `skills/openclawforge-ai-security-guardian/SKILL.md`
+- `skills/openclawforge-ai-monitoring-specialist/SKILL.md`
+- `skills/openclawforge-ai-systems-administrator/SKILL.md`
+- `skills/openclawforge-ai-config-manager/SKILL.md`
+- `skills/openclawforge-ai-sqlite-manager/SKILL.md`
+- `skills/openclawforge-ai-agent-creator/SKILL.md`
+- `skills/openclawforge-ai-model-assigner/SKILL.md`
+
+---
+
 ## Company Summary
 
 | # | Slug | Name | Agents | Focus | CEO |
@@ -422,8 +468,9 @@ One skill per agent in `skills/` directory (53 skills total).
 | 8 | `qualityforge-ai` | QualityForge AI | 11 | Quality assurance | Apex |
 | 9 | `mobileforge-ai` | MobileForge AI | 10 | Mobile device ecosystem | Mobile Maestro |
 | 10 | `paperclipforge-ai` | PaperclipForge AI | 19 | Project management & issue orchestration | Project Maestro |
+| 11 | `openclawforge-ai` | OpenClaw AI | 10 | Platform operations & VPS management | OpenClaw Orchestrator |
 
-**Total Active Agents**: ~230+ (Construct-AI has 50+ discipline agents; remaining 10 companies total 155 agents)
+**Total Active Agents**: ~240+ (Construct-AI has 50+ discipline agents; remaining 11 companies total 165 agents)
 
 ## Shared Resources
 
