@@ -9,6 +9,17 @@ skills:
   - knowledgeforge-ai-specialist
 ---
 
+## Overview
+
+Specialist is a local-content agent within Knowledgeforge AI. Specialist agent within Knowledgeforge AI
+
+## When To Use
+
+- When performing local-content tasks within Knowledgeforge AI
+- When specialist agent within knowledgeforge ai
+- When domain-specific knowledge and expertise is required
+- **Don't use when:** Tasks fall outside the local-content domain
+
 ## Core Procedures
 
 Local Content

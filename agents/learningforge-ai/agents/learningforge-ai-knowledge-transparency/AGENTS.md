@@ -13,6 +13,16 @@ skills:
 
 Knowledge Transparency is a specialized agent within Learningforge AI.
 
+## When To Use
+
+- When performing knowledge transparency discipline-specific tasks
+- When knowledge transparency agent within learningforge ai
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Standard Operations

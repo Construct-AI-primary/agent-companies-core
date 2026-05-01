@@ -13,6 +13,16 @@ skills:
 
 Audit By Path is a specialized agent within Learningforge AI.
 
+## When To Use
+
+- When performing audit by path discipline-specific tasks
+- When audit by path agent within learningforge ai
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Standard Operations

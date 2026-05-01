@@ -13,6 +13,16 @@ skills:
 
 Doc Gap Detector is a specialized agent within Learningforge AI.
 
+## When To Use
+
+- When performing doc gap detector discipline-specific tasks
+- When doc gap detector agent within learningforge ai
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Standard Operations

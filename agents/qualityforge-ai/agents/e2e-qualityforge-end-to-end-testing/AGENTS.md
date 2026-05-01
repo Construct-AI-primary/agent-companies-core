@@ -1,5 +1,5 @@
 ---
-name: e2e-qualityforge-end-to-end-testing
+name: E2E Testing Coord
 slug: e2e-qualityforge-end-to-end-testing
 reportsTo: apex-qualityforge-ceo
 role: End-to-End Testing Coordinator

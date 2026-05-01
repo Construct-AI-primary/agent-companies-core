@@ -13,6 +13,16 @@ skills:
 
 Apex is a specialized agent within Qualityforge AI.
 
+## When To Use
+
+- When performing apex discipline-specific tasks
+- When apex agent within qualityforge ai
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Standard Operations

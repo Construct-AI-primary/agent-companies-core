@@ -13,6 +13,16 @@ skills:
 
 HR Specialist is a specialized agent within Domainforge AI.
 
+## When To Use
+
+- When performing hr specialist discipline-specific tasks
+- When hr specialist agent within domainforge ai
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Standard Operations

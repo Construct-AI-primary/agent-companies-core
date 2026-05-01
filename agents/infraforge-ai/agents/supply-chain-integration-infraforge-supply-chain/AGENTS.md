@@ -1,5 +1,5 @@
 ---
-name: Supply Chain Integrator
+name: Supply Chain Integ
 slug: supply-chain-integration-infraforge-supply-chain
 reportsTo: orchestrator-infraforge-ceo
 role: general

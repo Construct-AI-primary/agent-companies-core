@@ -1,5 +1,5 @@
 ---
-name: OpenClaw Agent Reconciler
+name: OpenClaw Reconciler
 slug: openclaw-ai-agent-reconciler
 reportsTo: openclaw-ai-orchestrator-hostinger
 role: general

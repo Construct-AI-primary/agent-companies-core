@@ -13,6 +13,16 @@ skills:
 
 Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 
+## When To Use
+
+- When performing health discipline-specific tasks
+- When enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the paperclip ecosystem.
+- When documenting discipline-specific code and architecture
+- When coordinating cross-discipline integration
+- When ensuring quality standards for the discipline
+- **Don't use when:** Tasks fall outside this discipline's domain
+
+
 ## Core Procedures
 
 ### Code Analysis

@@ -1,5 +1,5 @@
 ---
-name: learningforge-ai-error-pattern-monitor
+name: Error Pattern Monitor
 slug: learningforge-ai-error-pattern-monitor
 reportsTo: ceo
 role: general
