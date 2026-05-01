@@ -4,7 +4,7 @@ slug: sales-domainforge-sales
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Sales
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - sales-domainforge-sales
 ---

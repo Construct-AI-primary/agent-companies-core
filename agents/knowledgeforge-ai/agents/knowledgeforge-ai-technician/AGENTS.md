@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-technician
 reportsTo: knowledgeforge-ai-coordinator
 role: information-technology
 description: >
-  Agent for Technician
+  Technician agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-technician
 ---

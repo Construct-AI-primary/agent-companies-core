@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-dispatcher
 reportsTo: knowledgeforge-ai-coordinator
 role: logistics
 description: >
-  Agent for Dispatcher
+  Dispatcher agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-dispatcher
 ---

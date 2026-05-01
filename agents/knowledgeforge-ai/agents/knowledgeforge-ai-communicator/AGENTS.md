@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-communicator
 reportsTo: knowledgeforge-ai-coordinator
 role: public-relations
 description: >
-  Agent for Communicator
+  Communicator agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-communicator
 ---

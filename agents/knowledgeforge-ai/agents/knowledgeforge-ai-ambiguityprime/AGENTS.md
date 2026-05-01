@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-ambiguityprime
 reportsTo: knowledgeforge-ai-coordinator
 role: ceo
 description: >
-  Agent for Ambiguityprime
+  Ambiguityprime agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-ambiguityprime
 ---

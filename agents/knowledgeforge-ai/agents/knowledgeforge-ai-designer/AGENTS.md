@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-designer
 reportsTo: knowledgeforge-ai-coordinator
 role: design
 description: >
-  Agent for Designer
+  Designer agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-designer
 ---

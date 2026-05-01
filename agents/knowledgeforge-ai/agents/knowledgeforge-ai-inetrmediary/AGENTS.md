@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-inetrmediary
 reportsTo: knowledgeforge-ai-coordinator
 role: cross-discipline-guardian
 description: >
-  Agent for Inetrmediary
+  Inetrmediary agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-inetrmediary
 ---

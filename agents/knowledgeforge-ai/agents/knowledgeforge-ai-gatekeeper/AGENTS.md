@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-gatekeeper
 reportsTo: knowledgeforge-ai-coordinator
 role: auth-flow
 description: >
-  Agent for Gatekeeper
+  Gatekeeper agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-gatekeeper
 ---

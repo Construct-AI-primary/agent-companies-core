@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-salesperson
 reportsTo: knowledgeforge-ai-coordinator
 role: sales
 description: >
-  Agent for Salesperson
+  Salesperson agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-salesperson
 ---

@@ -4,7 +4,7 @@ slug: security-domainforge-security
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Security
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - security-domainforge-security
 ---

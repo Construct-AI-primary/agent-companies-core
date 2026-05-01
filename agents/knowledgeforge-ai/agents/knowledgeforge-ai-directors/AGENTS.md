@@ -2,9 +2,9 @@
 name: Directors
 slug: knowledgeforge-ai-directors
 reportsTo: knowledgeforge-ai-coordinator
-role: board-of-directors
+role: directors
 description: >
-  Agent for Directors
+  Directors agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-directors
 ---

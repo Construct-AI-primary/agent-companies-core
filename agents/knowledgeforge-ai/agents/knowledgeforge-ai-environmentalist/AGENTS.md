@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-environmentalist
 reportsTo: knowledgeforge-ai-coordinator
 role: environmental
 description: >
-  Agent for Environmentalist
+  Environmentalist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-environmentalist
 ---

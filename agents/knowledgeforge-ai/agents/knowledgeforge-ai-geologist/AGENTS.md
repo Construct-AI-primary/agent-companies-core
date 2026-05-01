@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-geologist
 reportsTo: knowledgeforge-ai-coordinator
 role: geotechnical-engineer
 description: >
-  Agent for Geologist
+  Geologist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-geologist
 ---

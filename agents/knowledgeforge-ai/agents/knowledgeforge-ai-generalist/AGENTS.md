@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-generalist
 reportsTo: knowledgeforge-ai-coordinator
 role: sundry
 description: >
-  Agent for Generalist
+  Generalist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-generalist
 ---

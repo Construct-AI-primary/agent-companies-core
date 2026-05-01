@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-electrician
 reportsTo: knowledgeforge-ai-coordinator
 role: electrical-engineer
 description: >
-  Agent for Electrician
+  Electrician agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-electrician
 ---

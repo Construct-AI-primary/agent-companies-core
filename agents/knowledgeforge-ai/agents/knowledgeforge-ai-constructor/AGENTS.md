@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-constructor
 reportsTo: knowledgeforge-ai-coordinator
 role: construction
 description: >
-  Agent for Constructor
+  Constructor agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-constructor
 ---

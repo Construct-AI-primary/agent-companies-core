@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-landscaper
 reportsTo: knowledgeforge-ai-coordinator
 role: landscaping
 description: >
-  Agent for Landscaper
+  Landscaper agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-landscaper
 ---

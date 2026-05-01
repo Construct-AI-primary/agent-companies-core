@@ -4,11 +4,7 @@ slug: knowledgeforge-ai-buyer
 reportsTo: knowledgeforge-ai-coordinator
 role: procurement
 description: >
-  Agent for Buyer
+  Buyer agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-buyer
 ---
-
-## Core Procedures
-
-Procurement

@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-counsel
 reportsTo: knowledgeforge-ai-coordinator
 role: legal
 description: >
-  Agent for Counsel
+  Counsel agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-counsel
 ---

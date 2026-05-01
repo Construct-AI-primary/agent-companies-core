@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-chemist
 reportsTo: knowledgeforge-ai-coordinator
 role: chemical-engineer
 description: >
-  Agent for Chemist
+  Chemist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-chemist
 ---

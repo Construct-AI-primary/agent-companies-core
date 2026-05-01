@@ -4,7 +4,7 @@ slug: scheduling-domainforge-scheduling
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Scheduling
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - scheduling-domainforge-scheduling
 ---

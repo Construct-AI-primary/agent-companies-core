@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-chairman
 reportsTo: knowledgeforge-ai-coordinator
 role: board-of-directors
 description: >
-  Agent for Chairman
+  Chairman agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-chairman
 ---

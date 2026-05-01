@@ -2,13 +2,9 @@
 name: Guardian
 slug: knowledgeforge-ai-guardian
 reportsTo: knowledgeforge-ai-coordinator
-role: other-parties
+role: safety
 description: >
-  Agent for Guardian
+  Guardian agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-guardian
 ---
-
-## Core Procedures
-
-Other Parties

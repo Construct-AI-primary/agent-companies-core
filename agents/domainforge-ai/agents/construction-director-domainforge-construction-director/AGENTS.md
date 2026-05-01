@@ -4,7 +4,7 @@ slug: construction-director-domainforge-construction-director
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Construction Director
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - construction-director-domainforge-construction-director
 ---

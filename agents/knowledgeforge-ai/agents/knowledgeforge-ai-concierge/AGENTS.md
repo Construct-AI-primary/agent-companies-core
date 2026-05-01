@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-concierge
 reportsTo: knowledgeforge-ai-coordinator
 role: home-login
 description: >
-  Agent for Concierge
+  Concierge agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-concierge
 ---

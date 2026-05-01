@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-archivist
 reportsTo: knowledgeforge-ai-coordinator
 role: document-control
 description: >
-  Agent for Archivist
+  Archivist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-archivist
 ---

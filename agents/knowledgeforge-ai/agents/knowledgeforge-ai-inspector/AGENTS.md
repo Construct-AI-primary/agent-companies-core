@@ -4,11 +4,7 @@ slug: knowledgeforge-ai-inspector
 reportsTo: knowledgeforge-ai-coordinator
 role: inspection
 description: >
-  Agent for Inspector
+  Inspector agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-inspector
 ---
-
-## Core Procedures
-
-Inspection

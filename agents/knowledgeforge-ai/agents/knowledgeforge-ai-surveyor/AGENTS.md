@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-surveyor
 reportsTo: knowledgeforge-ai-coordinator
 role: quantity-surveying
 description: >
-  Agent for Surveyor
+  Surveyor agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-surveyor
 ---

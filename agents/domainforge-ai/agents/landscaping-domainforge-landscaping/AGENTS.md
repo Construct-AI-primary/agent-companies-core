@@ -4,7 +4,7 @@ slug: landscaping-domainforge-landscaping
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Landscaping
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - landscaping-domainforge-landscaping
 ---

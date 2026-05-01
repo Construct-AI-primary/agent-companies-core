@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-developer
 reportsTo: knowledgeforge-ai-coordinator
 role: developer
 description: >
-  Agent for Developer
+  Developer agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-developer
 ---

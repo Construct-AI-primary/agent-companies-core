@@ -2,9 +2,9 @@
 name: Engineer
 slug: knowledgeforge-ai-engineer
 reportsTo: knowledgeforge-ai-coordinator
-role: civil-engineer
+role: mechanical-engineer
 description: >
-  Agent for Engineer
+  Engineer agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-engineer
 ---

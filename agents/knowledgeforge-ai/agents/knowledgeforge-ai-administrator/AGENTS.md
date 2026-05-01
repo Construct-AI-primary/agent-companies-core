@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-administrator
 reportsTo: knowledgeforge-ai-coordinator
 role: administration
 description: >
-  Agent for Administrator
+  Administrator agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-administrator
 ---

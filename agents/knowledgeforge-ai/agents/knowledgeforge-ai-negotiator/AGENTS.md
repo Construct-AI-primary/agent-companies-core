@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-negotiator
 reportsTo: knowledgeforge-ai-coordinator
 role: contracts
 description: >
-  Agent for Negotiator
+  Negotiator agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-negotiator
 ---

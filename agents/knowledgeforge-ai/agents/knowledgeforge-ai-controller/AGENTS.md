@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-controller
 reportsTo: knowledgeforge-ai-coordinator
 role: project-controls
 description: >
-  Agent for Controller
+  Controller agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-controller
 ---

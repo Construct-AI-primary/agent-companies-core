@@ -4,7 +4,7 @@ slug: knowledgeforge-ai-ethicist
 reportsTo: knowledgeforge-ai-coordinator
 role: ethics
 description: >
-  Agent for Ethicist
+  Ethicist agent within Knowledgeforge AI
 skills:
   - knowledgeforge-ai-ethicist
 ---

@@ -4,7 +4,7 @@ slug: electrical-engineering-domainforge-electrical-engineering
 reportsTo: orion-domainforge-ceo
 role: general
 description: >
-  Agent for Electrical Engineering
+  Enables the agent to understand and document code structures, page implementations, and technical architecture for their assigned discipline within the Paperclip ecosystem.
 skills:
   - electrical-engineering-domainforge-electrical-engineering
 ---
