@@ -19,6 +19,17 @@
 | **Total Coding Estimate** | **450 hours** |
 | Parallel (5 agents) | ~12 calendar days |
 
+### Platform Breakdown
+
+| Platform | Projects | Issues | Coding Hours | % of Total |
+|----------|----------|--------|-------------|------------|
+| Desktop-only | 62 | ~409 | ~386 | ~86% |
+| Mobile-only (standalone) | 1 (MOBILE-TEST) | 7 | 4 | ~1% |
+| Mobile-embedded (within desktop projects) | 7 projects with mobile sub-issues | ~63 | ~60 | ~13% |
+| **Total** | **70** | **479** | **450** | **100%** |
+
+> **Note**: Mobile issues are handled separately by MobileForge AI. Desktop and mobile execution can run in parallel. See "Mobile Projects" section below for the complete mobile issue inventory.
+
 ## Execution Priority Order
 
 Projects are prioritised into phases based on business value and dependency chains. Phase 1 validates the workflow infrastructure with a single test project (PROCURE-TEST). Subsequent phases interleave discipline-specific testing sub-projects with their corresponding implementation phases.
@@ -1785,6 +1796,99 @@ Logistics platform and voice interaction projects, following LOGIS-TEST validati
 
 ---
 
+## Section 9: Mobile Projects — Complete Inventory
+
+Mobile issues are handled separately by **MobileForge AI** and can execute in parallel with desktop batches. This section inventories all mobile-specific issues across the codebase.
+
+### 9.1 Standalone Mobile Projects
+
+| Project | Discipline | Spec Lines | Issues | OpenClaw Time | Agent |
+|---------|------------|------------|--------|---------------|-------|
+| **MOBILE-TEST** | testing | 99 | 7 | 4 hours | MobileForge AI |
+
+**MOBILE-TEST Issues**:
+- `MOBILE-001-ios-testing` — iOS testing
+- `MOBILE-002-android-testing` — Android testing
+- `MOBILE-003-cross-platform-testing` — Cross-platform testing
+- `MOBILE-004-performance-testing` — Performance testing
+- `MOBILE-005-security-testing` — Security testing
+- `MOBILE-006-ui-ux-testing` — UI/UX testing
+
+### 9.2 Mobile Issues Embedded Within Desktop Projects
+
+These mobile issues are documented within desktop project specs but should be implemented separately by MobileForge AI.
+
+#### Civil Engineering — CIVIL-WORKFLOW (9 mobile issues)
+
+| Issue | Lines | Focus |
+|-------|-------|-------|
+| MOBILE-CIVIL-001-stormwater-field-inspection-mobile-interface | 40 | Field inspection |
+| MOBILE-CIVIL-002-road-design-field-survey-mobile-interface | 40 | Field survey |
+| MOBILE-CIVIL-003-bridge-inspection-mobile-interface | 40 | Bridge inspection |
+| MOBILE-CIVIL-004-utility-locating-and-coordination-mobile-interface | 40 | Utility locating |
+| MOBILE-CIVIL-005-earthworks-field-verification-mobile-interface | 40 | Earthworks verification |
+| MOBILE-CIVIL-006-mining-operations-field-mobile-interface | 40 | Mining operations |
+| MOBILE-CIVIL-007-pipeline-construction-inspection-mobile-interface | 40 | Pipeline inspection |
+| MOBILE-CIVIL-008-water-reticulation-field-operations-mobile-interface | 40 | Water reticulation |
+| MOBILE-CIVIL-009-tunnel-construction-monitoring-mobile-interface | 40 | Tunnel monitoring |
+
+#### Security — SECURITY-ASSET (8 mobile issues)
+
+| Issue | Lines | Focus |
+|-------|-------|-------|
+| MOBILE-SEC-002-gps-tracking-mobile | 40 | GPS tracking |
+| MOBILE-SEC-003-alert-response-mobile | 40 | Alert response |
+| MOBILE-SEC-004-inventory-scanning-mobile | 40 | Inventory scanning |
+| MOBILE-SEC-005-patrol-management-mobile | 40 | Patrol management |
+| MOBILE-SEC-006-incident-reporting-mobile | 40 | Incident reporting |
+| MOBILE-SEC-007-surveillance-viewing-mobile | 40 | Surveillance viewing |
+| MOBILE-SEC-008-security-dashboard-mobile | 40 | Security dashboard |
+| MOBILE-SECURITY-ASSET-001-security-architecture-setup | 40 | Architecture setup |
+
+#### Logistics — LOGISTICS-PLATFORM (1 mobile issue)
+
+| Issue | Lines | Focus |
+|-------|-------|-------|
+| LOGISTICS-018-mobile-driver-app | 56 | Mobile driver application |
+
+#### Voice Communication — VOICE-COMM (2 mobile issues)
+
+| Issue | Lines | Focus |
+|-------|-------|-------|
+| VOICE-COMM-101-mobile-voice-call-screen | 52 | Mobile voice call UI |
+| VOICE-COMM-102-mobile-document-attachment | 51 | Mobile document attachment |
+
+#### Safety — 8 Projects × 5 Mobile Issues Each (40 mobile issues)
+
+Each safety project has 5 mobile sub-issues following the same pattern:
+
+| Project | Mobile Issues |
+|---------|---------------|
+| SAFETY-CONTRACTOR | SAFETY-CONTRACTOR-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-EMERGENCY | SAFETY-EMERGENCY-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-HAZARD | SAFETY-HAZARD-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-HEALTH | SAFETY-HEALTH-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-INCIDENT | SAFETY-INCIDENT-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-INSPECTION | SAFETY-INSPECTION-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-PPE | SAFETY-PPE-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+| SAFETY-RESEARCH-ENHANCEMENT | SAFETY-RESEARCH-ENHANCEMENT-001-field-capture, -002-offline-sync, -003-push-notifications-alerts, -004-list-detail-views, -005-ux-accessibility |
+
+### 9.3 Mobile Issue Summary
+
+| Category | Count | Est. Hours |
+|----------|-------|------------|
+| Standalone mobile project (MOBILE-TEST) | 7 issues | 4 hours |
+| Embedded in CIVIL-WORKFLOW | 9 issues | ~8 hours |
+| Embedded in SECURITY-ASSET | 8 issues | ~8 hours |
+| Embedded in LOGISTICS-PLATFORM | 1 issue | ~2 hours |
+| Embedded in VOICE-COMM | 2 issues | ~2 hours |
+| Embedded in Safety projects (8 × 5) | 40 issues | ~36 hours |
+| **Total Mobile Issues** | **~67 issues** | **~60 hours** |
+
+> **Execution Note**: All mobile issues are assigned to **MobileForge AI** and can be executed in parallel with desktop batches. The mobile execution plan is defined in `batched-execution-plan.md` as **Batch 3.5 — Mobile Platform**, which runs alongside Batches 4–6.
+
+---
+
 ## Summary Statistics
 
 | Category | Discipline-Level | Project-Level | Subtotal |
@@ -1796,6 +1900,7 @@ Logistics platform and voice interaction projects, following LOGIS-TEST validati
 - **Total Issue Files**:      479
 - **Total Coding Estimate**: 450 hours (sequential, single OpenClaw agent)
 - **With 5 parallel OpenClaw agents**: ~12 calendar days
+- **Mobile Issues (separate)**: ~67 issues, ~60 hours (handled by MobileForge AI in parallel)
 
 ---
 

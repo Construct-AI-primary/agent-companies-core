@@ -154,13 +154,47 @@ Each discipline's `project-typologies/` directory contains the same 9 project ty
 
 Each discipline also has a top-level knowledge file (e.g., `0010_ARCHITECTURAL-SERVICES.MD`) describing the discipline's scope and services.
 
-## 7. UI/UX Report
+## 7. Mobile-Specific UI/UX Issues
+
+Mobile issues are handled separately by **MobileForge AI** and can execute in parallel with desktop batches. This section inventories mobile-specific UI/UX issues across the codebase.
+
+### 7.1 Standalone Mobile UI/UX Projects
+
+| # | Project | File Path | Issues | Focus |
+|---|---------|-----------|--------|-------|
+| 1 | MOBILE-TEST | `docs-paperclip/disciplines-shared/testing/projects/MOBILE-TEST/UI-UX-SPECIFICATION.md` | 7 | iOS, Android, cross-platform, performance, security, UI/UX testing |
+
+### 7.2 Mobile UI/UX Issues Embedded Within Desktop Projects
+
+| # | Parent Project | Mobile Issues | UI/UX Focus |
+|---|---------------|---------------|-------------|
+| 1 | CIVIL-WORKFLOW | 9 MOBILE-CIVIL-* issues | Field inspection, survey, bridge inspection, utility locating, earthworks, mining, pipeline, water reticulation, tunnel monitoring |
+| 2 | SECURITY-ASSET | 8 MOBILE-SEC-* issues | GPS tracking, alert response, inventory scanning, patrol management, incident reporting, surveillance, dashboard, architecture |
+| 3 | LOGISTICS-PLATFORM | 1 (LOGISTICS-018-mobile-driver-app) | Mobile driver application |
+| 4 | VOICE-COMM | 2 (VOICE-COMM-101, 102) | Mobile voice call screen, mobile document attachment |
+| 5 | SAFETY-* (8 projects) | 40 issues (5 per project) | Field capture, offline sync, push notifications, list/detail views, UX accessibility |
+
+### 7.3 Mobile UI/UX Architecture
+
+| # | File | Description |
+|---|------|-------------|
+| 1 | `docs-paperclip/companies/mobileforge-ai/MOBILE-ARCHITECTURE.md` | Mobile architecture (contains mermaid diagrams) |
+
+### 7.4 Mobile UI/UX Guidelines
+
+| # | Company | Path |
+|---|---------|------|
+| 1 | MobileForge AI | `docs-paperclip/companies/mobileforge-ai/shared/ui-ux-guidelines/` |
+
+> **Note**: All mobile issues are assigned to **MobileForge AI** and can be executed in parallel with desktop batches. See `batched-execution-plan.md` (Batch 3.5 — Mobile Platform) and `reports/ui-ux/2026-04-29-ui-ux-specification-projects-report.md` (Section 9) for the complete mobile inventory.
+
+## 8. UI/UX Report
 
 | # | File | Description |
 |---|------|-------------|
 | 1 | `docs-paperclip/reports/2026-04-29-ui-ux-specification-projects-report.md` | UI/UX specification projects report |
 
-## 8. Summary Statistics
+## 9. Summary Statistics
 
 | Category | Count |
 |----------|-------|
