@@ -1,6 +1,3 @@
-[submodule "agent-companies-openclaw"]
-	path = agent-companies-openclaw
-	url = https://github.com/Construct-AI-primary/agent-companies-openclaw
 [submodule "agent-companies-paperclip"]
 	path = agent-companies-paperclip
 	url = https://github.com/Construct-AI-primary/agent-companies-paperclip
